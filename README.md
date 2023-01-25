@@ -6,7 +6,6 @@
 ## Documentation
 
 If Vagrant is not installed, use this documentation: https://developer.hashicorp.com/vagrant/downloads
-Refer this link for documentation: https://devopscube.com/kubernetes-cluster-vagrant/
 
 ## Prerequisites
 
