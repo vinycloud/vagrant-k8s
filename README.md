@@ -1,6 +1,8 @@
 
 # Vagrantfile and Scripts to Automate Kubernetes Setup using Kubeadm
 
+![alt text](./images/kubeadm-vagrant-setup.png)
+
 ## Documentation
 
 If Vagrant is not installed, use this documentation: https://developer.hashicorp.com/vagrant/downloads
