@@ -1,6 +1,15 @@
 #!/bin/bash
-#
-# Setup for Control Plane (Master) servers
+
+###############################################################
+#                                                             # 
+# master.sh - Script for master configuration	                #         
+#                                                             #
+# Actor: Vinicius Fialho - (vinytisolution@gmail.com)         #
+# Date created: 2023/01/25                                    # 
+#                                                             #
+# Description: This script configure master-node for k8s      #
+#                                                             #
+###############################################################
 
 set -euxo pipefail
 
