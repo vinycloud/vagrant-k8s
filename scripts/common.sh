@@ -4,7 +4,7 @@
 #                                                             # 
 # common.sh - Script for all servers (Control Plane and Nodes)#         
 #                                                             #
-# Actor: Vinicius Fialho - (vinytisolution@gmail.com)         #
+# Author: Vinicius Fialho - (vinytisolution@gmail.com)        #
 # Date created: 2023/01/25                                    # 
 #                                                             #
 # Description: This script configure all servers for k8s      #
