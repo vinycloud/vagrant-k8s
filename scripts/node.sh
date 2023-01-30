@@ -4,7 +4,7 @@
 #                                                             # 
 # node.sh - Script for node configuration	                  #         
 #                                                             #
-# Actor: Vinicius Fialho - (vinytisolution@gmail.com)         #
+# Author: Vinicius Fialho - (vinytisolution@gmail.com)         #
 # Date created: 2023/01/25                                    # 
 #                                                             #
 # Description: This script configure node for k8s    	      #
