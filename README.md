@@ -32,15 +32,15 @@ https://discuss.hashicorp.com/t/vagrant-2-2-18-osx-11-6-cannot-create-private-ne
 To provision the cluster, execute the following commands.
 
 ```shell
-git clone https://github.com/vinycloud/vagrant-kubeadm-kubernetes.git
-cd vagrant-kubeadm-kubernetes
+git clone https://github.com/vinycloud/vagrant-k8s.git
+cd vagrant-k8s
 vagrant up
 ```
 
 ## Set Kubeconfig file variable
 
 ```shell
-cd vagrant-kubeadm-kubernetes
+cd vagrant-k8s
 cd configs
 export KUBECONFIG=$(pwd)/config
 ```
@@ -48,7 +48,7 @@ export KUBECONFIG=$(pwd)/config
 or you can copy the config file to .kube directory.
 
 ```shell
-cp config ~/.kube/
+cp configs/config ~/.kube/
 ```
 
 ## Check the status of cluster after config kubeconfig
@@ -74,7 +74,7 @@ http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kube
 Vagrant up will create the admin user token and saves in the configs directory.
 
 ```shell
-cd vagrant-kubeadm-kubernetes
+cd vagrant-k8s
 cd configs
 cat token
 ```
