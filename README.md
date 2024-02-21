@@ -40,8 +40,7 @@ vagrant up
 ## Set Kubeconfig file variable
 
 ```shell
-cd vagrant-k8s
-cd configs
+cd vagrant-k8s/configs
 export KUBECONFIG=$(pwd)/config
 ```
 
@@ -74,8 +73,7 @@ http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kube
 Vagrant up will create the admin user token and saves in the configs directory.
 
 ```shell
-cd vagrant-k8s
-cd configs
+cd vagrant-k8s/configs
 cat token
 ```
 
@@ -97,5 +95,5 @@ vagrant up
 vagrant destroy -f
 ```
 
-## I hope it helped you! :)
+## I hope it helped you to learn and study for you exam! :)
 
